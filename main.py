@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from model import Model
 import numpy as np
 from tqdm import tqdm
+import cv2
 
 def load_planar_dataset():
     np.random.seed(1)
@@ -73,3 +74,4 @@ def predict(test):
 
 plot_decision_boundary(lambda x: predict(x.T), X, y)
 plt.show()
+cv2.waitKey(0)
