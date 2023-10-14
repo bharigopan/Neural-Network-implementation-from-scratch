@@ -75,4 +75,10 @@ def predict(test):
 
 plot_decision_boundary(lambda x: predict(x.T), X, y)
 plt.show()
-plt.plot([5,5,5])
+
+x = np.linspace(0, 10, 100)
+
+plt.plot(x, np.sin(x))
+plt.plot(x, np.cos(x))
+
+plt.show()
