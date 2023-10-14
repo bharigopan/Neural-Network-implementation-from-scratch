@@ -2,6 +2,7 @@ from layers.FullyConnected import FC
 from activations.activation import Activation
 from optimizers.optimizer import Optimizer
 from losses.BinaryCrossEntropy import BCE
+%matplotlib inline
 import matplotlib.pyplot as plt
 from model import Model
 import numpy as np
