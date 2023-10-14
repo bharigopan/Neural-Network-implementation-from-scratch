@@ -75,4 +75,4 @@ def predict(test):
 
 plot_decision_boundary(lambda x: predict(x.T), X, y)
 plt.show()
-cv2.waitKey(0)
+plt.plot()
